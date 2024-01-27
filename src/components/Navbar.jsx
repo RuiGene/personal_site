@@ -94,16 +94,20 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/daniel-yang-/'  // Replace with your LinkedIn profile URL
+              target='_blank'  // Open link in a new tab
+              rel='noopener noreferrer'  // Recommended for security reasons
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
+          <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
+              href='https://github.com/RuiGene'  // Replace with your LinkedIn profile URL
+              target='_blank'  // Open link in a new tab
+              rel='noopener noreferrer'  // Recommended for security reasons
+            > 
               Github <FaGithub size={30} />
             </a>
           </li>
@@ -111,7 +115,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
-            >
+            > 
               Email <HiOutlineMail size={30} />
             </a>
           </li>
