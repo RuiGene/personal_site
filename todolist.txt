@@ -1,4 +1,4 @@
-Add we links to Resume + email
-Find picture to add
 update readme file
 Dynamic loading in of 'Hello, I'm Daniel Yang'
+Convert skills to icons with tooltip of skill name
+Add streamlit stock searcher project

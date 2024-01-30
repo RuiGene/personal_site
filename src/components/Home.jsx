@@ -1,6 +1,5 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/me.png';
 import { Link } from "react-scroll"; 
 
 const Home = () => {
@@ -14,8 +13,9 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
           Hello, I'm Daniel Yang.
         </h2>
-        <p className="text-gray-500 py-4 max-w-md">
-                I'm currently a 4th year Engineering and Commerce student, at the University of Auckland. 
+        <p className="text-gray-500 py-4 ">
+                I'm currently a 4th year Engineering and Commerce student, specialising in Engineering Science and majoring in Finance at the 
+                University of Auckland.
         </p>
         <div>
           <Link
@@ -32,11 +32,6 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <img
-          src={me}  
-          alt="my profile"
-          className="rounded-2xl mx-auto w-2/3 md:w-full"
-        />
       </div>
     </div>
   </div>
