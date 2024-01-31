@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaPython, FaSnowflake  } from "react-icons/fa";
+import { SiRstudio, SiPostgresql, SiPowerbi, SiTableau, SiDbt, SiJavascript} from "react-icons/si";
+import { Tooltip } from 'react-tooltip'
 
 const Skills = () => {
   return (
@@ -10,41 +13,29 @@ const Skills = () => {
               <p className='py-4 text-2xl'>I enjoy diving into and learning new things. Here's a list of technologies I've worked with</p>
           </div> 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>HTML</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <FaPython size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>CSS</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiRstudio size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>JAVASCRIPT</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiPostgresql size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>REACT</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiPowerbi size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>GITHUB</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiTableau  size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>NODE JS</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <FaSnowflake  size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>MONGO DB</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiDbt  size={100}/>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>AWS</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>Django</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>Sass</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>Mongodb</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>GraphQl</p>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiJavascript  size={100}/>
               </div>
           </div>
       </div>
