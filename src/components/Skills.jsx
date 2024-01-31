@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPython, FaSnowflake  } from "react-icons/fa";
 import { SiRstudio, SiPostgresql, SiPowerbi, SiTableau, SiDbt, SiJavascript} from "react-icons/si";
-import { Tooltip } from 'react-tooltip'
+// import { Tooltip } from 'react-tooltip'
 
 const Skills = () => {
   return (
