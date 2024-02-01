@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaPython, FaSnowflake  } from "react-icons/fa";
-import { SiRstudio, SiPostgresql, SiPowerbi, SiTableau, SiDbt, SiJavascript} from "react-icons/si";
+import { FaPython, FaSnowflake,FaHtml5, FaCss3Alt   } from "react-icons/fa";
+import { SiRstudio, SiPostgresql, SiPowerbi, SiTableau, SiDbt, SiJavascript, SiGrafana, SiAzuredevops    } from "react-icons/si";
 // import { Tooltip } from 'react-tooltip'
 
 const Skills = () => {
@@ -36,6 +36,18 @@ const Skills = () => {
               </div>
               <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
                 <SiJavascript  size={100}/>
+              </div>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <FaHtml5    size={100}/>
+              </div>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <FaCss3Alt   size={100}/>
+              </div>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiGrafana   size={100}/>
+              </div>
+              <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
+                <SiAzuredevops    size={100}/>
               </div>
           </div>
       </div>
