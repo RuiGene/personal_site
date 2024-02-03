@@ -1,5 +1,4 @@
 update readme file
 Dynamic loading in of 'Hello, I'm Daniel Yang'
 add tooltip to skill icons
-Add streamlit stock searcher project
 Navbar icons- on hover make it bold
