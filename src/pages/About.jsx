@@ -26,7 +26,9 @@ const About = () => {
             <div>
               <p>
                 {" "}
-                I'm an aspiring Data Engineer .... fill in this
+                I'm an aspiring Data Engineer with a background as a Data Analyst at Squirrel and a Technology Insights Analyst at 2degrees.
+                I have a strong interest in both finance and data, where I currently serve as an Equity Analyst at UAIC on top of managing my own porfolio.
+                I am Eager to contribute my skills to cutting-edge projects in data engineering and financial analytics.
               </p>
             </div>
           </div>

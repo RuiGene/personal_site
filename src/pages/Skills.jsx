@@ -1,7 +1,7 @@
+import { Tooltip } from '@mui/material';
 import React from 'react';
 import {FaPython, FaSnowflake,FaHtml5, FaCss3Alt   } from "react-icons/fa";
 import { SiRstudio, SiPostgresql, SiPowerbi, SiTableau, SiDbt, SiJavascript, SiGrafana, SiAzuredevops    } from "react-icons/si";
-// import { Tooltip } from 'react-tooltip';
 
 const Skills = () => {
   return (
@@ -14,7 +14,9 @@ const Skills = () => {
           </div> 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
-              <FaPython size={100}/>
+                <Tooltip title = "Python">
+                  <FaPython size={100}/>
+                </Tooltip>
               </div>
               <div className=' hover:scale-110 duration-500 flex items-center justify-center'>
                 <SiRstudio size={100}/>
